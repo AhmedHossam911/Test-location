@@ -1,7 +1,8 @@
 {
   const allowedAreas = [
-    { lat: 30.11949314190359, lon: 31.30218165655212 }, // Giza, Egypt
+    { lat: 10.11949314190359, lon: 10.30218165655212 }, // Giza, Egypt
     // Add more allowed areas as needed
+
   ];
 
   const resultParagraph = document.getElementById('result');
