@@ -18,7 +18,7 @@
 
         // Check if user's location is within allowed areas
         const isLocationAllowed = allowedAreas.some(area =>
-          Math.abs(userLocation.lat - area.lat) < 0.005 && Math.abs(userLocation.lon - area.lon) < 0.005
+          Math.abs(userLocation.lat - area.lat) < 0.002 && Math.abs(userLocation.lon - area.lon) < 0.002
         );
 
         if (isLocationAllowed) {
