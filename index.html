@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIS Student Attendance</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="Helwan Logo copy.png" alt="University Logo">
+            <span>Helwan University Faculty Of Commerce & Business Administration</span>
+        </div>
+        <div class="logo">
+            <img src="Logo.png" alt="College Logo">
+            <span>Business Information Systems (BIS)</span>
+        </div>
+
+        <div class="time-widget">
+            <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=small&timezone=Africa%2FCairo" width="100%" height="90" frameborder="0" seamless></iframe>
+        </div>
+
+    </nav>
+    
+    <div class="rotate-message">
+      <h2 style="color: red; text-align: center;">Student Attendance</h2>
+      <p style="direction: rtl; text-align: right;"> 1. يجب التأكد من نقل كود المحاضرة (Lecture Code) بشكل صحيح وهو خاص بكل طالب لتأكيد حضوره</p>
+      <p style="direction: rtl; text-align: right;"> 2. يجب الاحتفاظ بلقطة شاشة (Screenshot) للشاشة النهائية للتسجيل ويظهر فيها كود المحاضرة (Lecture Code) بشكل واضح وذلك بمثابة تأكيد علي تسجيل حضورك</p>
+      <p style="direction: rtl; text-align: right;"> 3. يجب ان يتم تسجيل حضورك عن طريق الايميل الجامعي الخاص بك لانه ولن يتم التسجيل باي ايميل اخر </p>
+      <p style="direction: rtl; text-align: right;"> 4. تأكد جيدا من المحاضرة التي تقوم بالتسجيل بها ورقم المحاضرة مرتبط بوقتها </p>
+      <p style="direction: rtl; text-align: right;"> ملحوظة:- في حالة عدم تسجيل الدخول بالايميل الجامعي سيطلب منك تسجيل الدخول بشكل تلقائي عند محاولة ملئ الفورم </p>
+  
+      <p id="result"></p>
+      <button id="closeRotateMessage" disabled>Close</button>
+    </div>
+  
+    <section class="student-section" id="Lec1">
+        <h2 style="color: red;">Student Attendance</h2>
+        <h3 style="color: red;">Lecture 1</h3>
+        <p style="font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Lecture 1 Code: <span id="random-code"></span></p>
+        <div style="display: block;">
+          <iframe class="Form" width="640px" height="480px"  src="https://forms.office.com/Pages/ResponsePage.aspx?id=alg1e43RXECOKVcThik3qd3pNTA3nkxAlPb7Z7EXaQFUREVBR1dGMjJLR0FEQktYNTFWVzAwT0hPUi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+        </div>
+   </section>
+
+  <section class="student-section" id="Lec2">
+    <h2 style="color: red;">Student Attendance</h2>
+    <h3 style="color: red;">Lecture 2</h3>
+    <p style="font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Lecture 2 Code: <span id="random-code-1"></span></p>
+        <div style="display: block;">
+          <iframe  width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=alg1e43RXECOKVcThik3qS7uOS1Zc-5EvLCKlQeqIO5UNkRTNzRITlBRMjFGTTdWT0JGOUs1R0RRMS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+        </div>
+  </section>
+
+  <section class="student-section" id="Lec3"> 
+    <h2 style="color: red;">Student Attendance</h2>
+    <h3 style="color: red;">Lecture 3</h3>
+        <p style="font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Lecture 3 Code: <span id="random-code-2"></span></p>
+        <div style="display: block;">
+          <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=alg1e43RXECOKVcThik3qd3pNTA3nkxAlPb7Z7EXaQFUMDRRNzFMU0pKUTI3MEg5SDc5VFJGTzM0MC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>        </div>
+        </div>
+  </section>
+
+  <section class="student-section" id="Lec4"> 
+    <h2 style="color: red;">Student Attendance</h2>
+    <h3 style="color: red;">Lecture 4</h3>
+        <p style="font-weight: bold; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Lecture 4 Code: <span id="random-code-3"></span></p>
+        <div style="display: block;">
+          <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=alg1e43RXECOKVcThik3qS7uOS1Zc-5EvLCKlQeqIO5UME1EWEk4MDlTTjFDVUNOTDdKNVc5REdTUC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>    </div>
+        </div>
+  </section>
+
+  <section class="student-section"  id="DayEnd" > 
+        <h1 style="color: red; margin-top: 10px;">NO Lectures For Now</h1>
+        <img class="IMG" src="Have a nice day .png" alt="have a nice day img">
+  </section>
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <img src="fb.png" alt="Logo 1">
+        <a href="https://www.facebook.com/BIS.FCBA.Helwan.uni">Facebook</a>
+      </div>
+      <div class="footer-section">
+        <img src="facebook-group-facebook-group-icon-png.png" alt="Logo 2">
+        <a href="https://www.facebook.com/groups/483323791827046">Facebook Group</a>
+      </div>
+      <div class="footer-section">
+        <img src="internet-web-icon-in-trendy-flat-style-isolated-on-white-background-website-symbol-for-your-website-design-logo-app-ui-illustration-free-vector.jpg" alt="Logo 3">
+        <a href="http://fcba.helwan.edu.eg/?fbclid=IwAR0j-OzzCcLZYOopsVdb20qZjHnQSwaYPbwM559rsuC6jn_Dftdse0RUILw">Faculty Website</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Business Information Systems (BIS). All rights reserved.</p>
+    </div>
+  </footer>
+    
+
+
+  <script src="script.js" defer></script>
+  
+</body>
+</html>
