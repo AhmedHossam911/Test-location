@@ -1,6 +1,6 @@
 {
   const allowedAreas = [
-    { lat: 10.11949314190359, lon: 10.30218165655212 }, // Giza, Egypt
+    { lat: 30.071711712194215, lon: 31.220952436284982 }, // Giza, Egypt
     // Add more allowed areas as needed
 
   ];
